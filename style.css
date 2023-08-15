@@ -1,0 +1,20 @@
+body {
+    background: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+canvas {
+    background-color: #212121;
+    border: 0.4px solid #EEEE;
+    width: 400px;
+}
+
+@media (max-width: 600px) {
+    canvas {
+        height: 300px;
+        width: 300px;
+    }
+  }
