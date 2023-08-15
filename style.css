@@ -1,6 +1,7 @@
 body {
     background: #191919;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 90vh;
@@ -12,9 +13,29 @@ canvas {
     width: 400px;
 }
 
+#buttons {
+    margin-top: 12px;
+    text-align: center;
+}
+
+#buttons button {
+    padding: 12px;
+}
+
+#buttons #up {
+    display: block;
+    margin: 4px auto;
+}
+
 @media (max-width: 600px) {
     canvas {
         height: 300px;
         width: 300px;
+    }
+  }
+
+@media (min-width: 600px) {
+    #buttons {
+        display: none;
     }
   }

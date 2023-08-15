@@ -80,3 +80,21 @@ document.addEventListener("keydown", ({key}) => {
         direction = "ArrowUp"
     }
 })
+
+let btn = document.querySelectorAll('button')
+
+btn[0].addEventListener('click', () => {
+    direction = "ArrowUp"
+})
+
+btn[1].addEventListener('click', () => {
+    direction = "ArrowLeft"
+})
+
+btn[2].addEventListener('click', () => {
+    direction = "ArrowDown"
+})
+
+btn[3].addEventListener('click', () => {
+    direction = "ArrowRight"
+})
